@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#FF5733"
+                android:centerColor="#FFC300"
+                android:endColor="#DAF7A6"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- Abstract shapes -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/abstract_shape_overlay" />
+    </item>
+</layer-list>
